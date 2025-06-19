@@ -1,0 +1,15 @@
+{
+  "display": {
+    "title": {"text": "Romantic Leader", "color": "red", "bold": true},
+    "description": {"text": "You charmed hearts while in command.", "italic": true},
+    "icon": {"id": "minecraft:red_tulip"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "romantic_leader": {"trigger": "minecraft:impossible"}
+  },
+  "parent": "sub:top/root"
+}

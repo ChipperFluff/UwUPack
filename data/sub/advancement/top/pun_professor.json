@@ -1,0 +1,15 @@
+{
+  "display": {
+    "title": {"text": "Pun Professor", "color": "red", "bold": true},
+    "description": {"text": "You delivered the perfect joke.", "italic": true},
+    "icon": {"id": "minecraft:book"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "pun_professor": {"trigger": "minecraft:impossible"}
+  },
+  "parent": "sub:top/root"
+}

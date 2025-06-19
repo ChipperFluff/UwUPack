@@ -1,0 +1,15 @@
+{
+  "display": {
+    "title": {"text": "Purrfect Match", "color": "light_purple", "bold": true},
+    "description": {"text": "You found the purrfect partner.", "italic": true},
+    "icon": {"id": "minecraft:cod"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "purrfect_match": {"trigger": "minecraft:impossible"}
+  },
+  "parent": "sub:bottom/root"
+}
