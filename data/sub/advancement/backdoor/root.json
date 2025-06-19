@@ -1,18 +1,18 @@
 {
   "display": {
     "title": {
-      "text": "Top Thrust",
-      "color": "red",
+      "text": "Backdoor Discovery",
+      "color": "gold",
       "bold": true
     },
     "description": {
-      "text": "You entered with confidence and a wagging tail.",
-      "italic": true
+      "text": "You explored a tunnel that wasn’t naturally generated... furry mischief awaits.",
+      "bold": true
     },
     "icon": {
-      "id": "minecraft:iron_sword"
+      "id": "minecraft:stick"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
