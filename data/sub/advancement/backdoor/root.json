@@ -1,24 +1,24 @@
 {
   "display": {
     "title": {
-      "text": "Bottom Energy",
-      "color": "light_purple",
+      "text": "Backdoor Discovery",
+      "color": "gold",
       "bold": true
     },
     "description": {
-      "text": "You didn’t fall… you *offered*.",
-      "italic": true
+      "text": "You explored a tunnel that wasn’t naturally generated... furry mischief awaits.",
+      "bold": true
     },
     "icon": {
-      "id": "minecraft:leather_leggings"
+      "id": "minecraft:stick"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
   "criteria": {
-    "bottom_awakens": {
+    "bottom": {
       "trigger": "minecraft:impossible"
     }
   },
