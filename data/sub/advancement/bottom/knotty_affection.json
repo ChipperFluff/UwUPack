@@ -1,0 +1,15 @@
+{
+  "display": {
+    "title": {"text": "Knotty Affection", "color": "light_purple", "bold": true},
+    "description": {"text": "You tied the knot in your own way.", "italic": true},
+    "icon": {"id": "minecraft:vine"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "knotty_affection": {"trigger": "minecraft:impossible"}
+  },
+  "parent": "sub:bottom/root"
+}
