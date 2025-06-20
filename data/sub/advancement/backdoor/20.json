@@ -16,7 +16,7 @@
   },
   "criteria": {
     "trigger_tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   },
   "parent": "sub:backdoor/root"
