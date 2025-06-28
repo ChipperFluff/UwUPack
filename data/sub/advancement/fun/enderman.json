@@ -1,0 +1,24 @@
+{
+  "parent": "sub:kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": "Stop Looking!",
+    "description": "That was your last stare.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman"
+        }
+      }
+    }
+  }
+}

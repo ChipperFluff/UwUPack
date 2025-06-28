@@ -1,0 +1,24 @@
+{
+  "parent": "sub:kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": "Boned",
+    "description": "No more rattling.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    }
+  }
+}

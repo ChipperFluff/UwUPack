@@ -6,7 +6,7 @@
     "title": "there could be more",
     "description": "maybe you should add more addvancements UwU",
     "background": "minecraft:block/chain",
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

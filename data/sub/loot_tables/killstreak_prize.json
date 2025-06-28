@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Soul of the Hunt",
+                "italic": false,
+                "color": "dark_red"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Granted to the first killer of all things.",
+                  "italic": true,
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "sub:kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_bottle"
+    },
+    "title": "Not So Magical",
+    "description": "Bubble, bubble, burst.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        }
+      }
+    }
+  }
+}

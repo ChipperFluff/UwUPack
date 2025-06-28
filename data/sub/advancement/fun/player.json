@@ -1,0 +1,24 @@
+{
+  "parent": "sub:kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": "PvP Champ",
+    "description": "Another gamer down.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  }
+}

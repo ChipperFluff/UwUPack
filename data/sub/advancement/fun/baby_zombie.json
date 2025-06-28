@@ -1,0 +1,25 @@
+{
+  "parent": "sub:kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": "Tiny Terror Terminated",
+    "description": "Yey, you stopped the waddling menace. No more squee sounds.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_baby_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{IsBaby:1b}"
+        }
+      }
+    }
+  }
+}

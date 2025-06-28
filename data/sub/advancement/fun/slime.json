@@ -1,0 +1,24 @@
+{
+  "parent": "sub:kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": "Jelly Eliminated",
+    "description": "Squishy defeated.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime"
+        }
+      }
+    }
+  }
+}

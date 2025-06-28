@@ -1,0 +1,20 @@
+{
+  "parent": "sub:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": "Gamer Instincts",
+    "description": "Sometimes violence *is* the answer.",
+    "background": "minecraft:textures/block/chain.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "any_kill": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  }
+}
