@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " m ",
+    "gfg",
+    " v "
+  ],
+  "key": {
+    "m": [
+      "minecraft:moss_block"
+    ],
+    "g": [
+      "minecraft:glow_lichen"
+    ],
+    "f": [
+      "minecraft:flowering_azalea"
+    ],
+    "v": [
+      "minecraft:vine"
+    ]
+  },
+  "result": {
+    "id": "minecraft:spore_blossom",
+    "count": 1
+  }
+}

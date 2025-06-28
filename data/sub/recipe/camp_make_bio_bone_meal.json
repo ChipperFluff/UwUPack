@@ -1,6 +1,6 @@
 {
     "type": "minecraft:campfire_cooking",
-    "ingredient": "minecraft:bamboo",
+    "ingredient": "#sub:bio",
     "result": {
         "id": "minecraft:bone_meal"
     },

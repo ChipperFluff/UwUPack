@@ -1,6 +1,6 @@
 {
     "type": "minecraft:smelting",
-    "ingredient": "minecraft:bamboo",
+    "ingredient": "#sub:bio",
     "result": {
         "id": "minecraft:bone_meal"
     },

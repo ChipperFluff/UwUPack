@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bb",
+    "bb",
+    "an"
+  ],
+  "key": {
+    "a": [
+      "minecraft:string"
+    ],
+    "b": [
+      "minecraft:paper"
+    ],
+    "n": [
+      "minecraft:iron_nugget"
+    ]
+  },
+  "result": {
+    "id": "minecraft:name_tag",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shroomlight"
+    },
+    "title": "there could be more",
+    "description": "maybe you should add more addvancements UwU",
+    "background": "minecraft:block/chain",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "sub:root",
+  "criteria": {
+    "more": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 120
+  }
+}

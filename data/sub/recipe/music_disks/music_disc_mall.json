@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dpd",
+    "pmp",
+    "dpd"
+  ],
+  "key": {
+    "d": [
+      "minecraft:black_dye"
+    ],
+    "p": [
+      "minecraft:paper"
+    ],
+    "m": [
+      "minecraft:ender_pearl"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_mall",
+    "count": 1
+  }
+}
