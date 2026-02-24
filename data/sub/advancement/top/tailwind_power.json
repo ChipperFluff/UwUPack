@@ -1,0 +1,15 @@
+{
+  "display": {
+    "title": {"text": "Tailwind Power", "color": "red", "bold": true},
+    "description": {"text": "You blazed ahead with furry might.", "italic": true},
+    "icon": {"id": "minecraft:elytra"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "tailwind_power": {"trigger": "minecraft:impossible"}
+  },
+  "parent": "sub:top/root"
+}

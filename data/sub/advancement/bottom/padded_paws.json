@@ -1,0 +1,15 @@
+{
+  "display": {
+    "title": {"text": "Padded Paws", "color": "light_purple", "bold": true},
+    "description": {"text": "Your pawwear is on point.", "italic": true},
+    "icon": {"id": "minecraft:leather_boots"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "padded_paws": {"trigger": "minecraft:impossible"}
+  },
+  "parent": "sub:bottom/root"
+}
